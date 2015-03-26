@@ -2,7 +2,7 @@ language: python
 python:
   - "2.7"
 install: "pip install epubmaker==0.3.20"
-script: './make.sh'
+script: './build/make.sh'
 addons:
     artifacts: true
 
