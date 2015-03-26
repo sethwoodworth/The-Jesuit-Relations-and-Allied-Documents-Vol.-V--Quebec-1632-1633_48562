@@ -1,0 +1,8 @@
+PIL==1.1.7
+argparse==1.2.1
+cssutils==1.0
+docutils==0.12
+epubmaker==0.3.20
+lxml==3.4.2
+roman==2.0.0
+wsgiref==0.1.2
