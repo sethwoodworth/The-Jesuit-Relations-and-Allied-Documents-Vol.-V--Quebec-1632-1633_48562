@@ -1,7 +1,7 @@
 language: python
 python:
   - "2.7"
-before_install: sudo apt-get install libxml2-dev libxslt1-dev python-dev
+before_install: sudo apt-get install libxml2-dev libxslt1-dev python-dev tidy
 install: "pip install epubmaker==0.3.20"
 script: './build/make.sh'
 addons:
